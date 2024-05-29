@@ -8,8 +8,8 @@ import "./assets/img/4geeks.ico";
 window.onload = function() {
   generateCard();
 };
-const cardRandom = document.querySelector(".button");
-cardRandom.addEventListener("click", generateCard);
+const CARDRANDOM = document.querySelector(".button");
+CARDRANDOM.addEventListener("click", generateCard);
 
 function generateCard() {
   let topSymbol = generateRandomTop();
